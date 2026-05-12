@@ -1,1 +1,12 @@
-
+{
+    "name": "APIOrder",
+    "description": "Sendet Bestelldaten an eine API",
+    "namespace": "APIOrder",
+    "author": "Nico Peters",
+    "type": "template",
+    "version": "1.0.0",
+    "serviceProvider": "APIOrder\\Providers\\APIOrderServiceProvider",
+    "runOnBuild": [
+        "APIOrder\\Providers\\APIOrderServiceProvider"
+    ]
+}
